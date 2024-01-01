@@ -1,0 +1,106 @@
+Q1.  Program To Find Largest Number Less Than Given Number And Without A Given Digit :
+
+Number: 98512, Digit: 5
+
+Answer: 98499
+
+Number: 123, Digit: 2
+
+Answer: 119
+
+<start here>
+
+
+
+
+
+
+
+
+Q2.  Program To Find The Sum Of All Digits Of A Number Using Recursive Method :
+
+Sum Of All Digits In 47862 = 27
+
+Sum Of All Digits In 5674283 = 35
+
+number = 5674283
+
+<start here>
+
+
+
+
+
+Q3.  What is difference between Collection.synchronizedMap(map) and ConcurrentHashMap?
+
+
+
+Q4. What is double level locking in singleton design pattern?
+
+
+
+Q5. Write sample class for factory and prototype design pattern?
+
+
+
+Q6. What is Serialization & Externalization?
+
+
+
+------------------------------SQL questions------------------------------------
+
+Employee
+
+EmpID   EmpFname EmpLname   Department  Project     Address         DOB         Gender
+1   Sanjay      mehra       HR          P1      Hyderabad(HYD)      1/12/1976   M
+2   Ananya      Mishra      Admin       P2      Delhi(DEL)          2/5/1968    F
+2   Ananya      Mishra      Admin       P2      Delhi(DEL)          2/5/1968    F
+3   Rohan       Diwan       Account     P3      Mumbai(BOM)         1/1/1980    M
+4   Sonia       Kulkarni    HR          P1      Hyderabad(HYD)      2/5/1992    F
+4   Sonia       Kulkarni    HR          P1      Hyderabad(HYD)      2/5/1992    F
+5   Ankit       Kapoor      Admin       P2      Delhi(DEL)          3/7/1994    M
+5   Ankit       Kapoor      Admin       P2      Delhi(DEL)          3/7/1994    M
+
+Department
+
+EmpID   EmpPosition DateOfJoining   Salary
+1       Manager     1/5/2022        500000
+2       Executive   2/5/2022        75000
+3       Manager     1/5/2022        90000
+4       Lead        2/5/2022         85000
+5       Executive   1/5/2022        300000
+
+
+
+Q1. Write a select query to fetch the Employee First and last name in the same string ordered by the employee id
+   
+
+
+Q2. Write a query to find all Employees(first name last name) who joined after 10th Feb 2022 and are in the Admin Departement
+ 
+
+
+Q3.Write a query to find the count of employees in each department
+
+
+
+Q4. Write a query to fetch all employee first names whose last names start with M (hould be case agnostic)
+ select empfname from employee where emplname like 'M%' and empname like 'm%';
+
+
+
+Q5. Write a query to remove the duplicates from the table
+
+
+Q6.Write a query to update the address of all employees from Delhi to Mumbai
+
+
+Q7. Write a query to find all employees born in the month of February
+
+
+Q8. Write a query to print department wise employee positions
+
+
+Q9. Write a query to fetch all the data from the Employee table and print out "N/A" for all non matching values from Department table for the employees who are managers
+
+
